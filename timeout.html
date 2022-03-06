@@ -1,0 +1,25 @@
+<html>
+    <body>
+
+        <p>Click the button to wait 3 seconds, then alert "Hello".</p>
+
+        <button onclick="normalButton()">Normal Button</button>
+
+        <br>
+        <br>
+
+        <button onclick="setTimeOutButton()">Set Time Out Button</button>
+
+        <script>
+
+            function normalButton() {
+                alert("normal Button");
+            }
+            function setTimeOutButton() {
+
+                setTimeout(
+                    function() {
+                        alert("set TimeOut Button");
+                    }, 3000);
+
+                }
